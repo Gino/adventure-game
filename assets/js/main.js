@@ -141,7 +141,7 @@ var story = {
 }
 
 var letter = 0;
-var currentScene = 17;
+var currentScene = 1;
 
 window.onload = function () {
     animation();
