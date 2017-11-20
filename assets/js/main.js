@@ -75,7 +75,7 @@ var story = {
     },
     11: {
         sentence: "It's time to go to work, take your flying car and lets go!",
-        image: "https://www.wallpapersbrowse.com/images/lg/lg2z2pw.png",
+        image: "http://www.kauergames.com/wp-content/uploads/2016/10/pixel-landscape.png",
         options: {
             1: [ "Continue", 12]
         }
