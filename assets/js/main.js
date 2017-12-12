@@ -8,7 +8,7 @@ var story = {
         options: {
             1: [ "Start the game", 2]
         },
-        image: "https://i.imgur.com/LitNhNr.gif"
+        image: "./assets/img/scenes/scene1.gif"
     },
     2: {
         sentence: "> You're the person on the left, you're currently in the local cafe.\nThe person on the right is Sam, you really wanna murder Sam and you can kill him right now with the knife in your hand or leave him for a bit..",
@@ -16,21 +16,21 @@ var story = {
             1: [ "Murder Sam right now.", 3],
             2: [ "Leave him for now and go to home.", 10]
         },
-        image: "https://i.imgur.com/p4vnGAN.gif"
+        image: "./assets/img/scenes/scene2.gif"
     },
     3: {
         sentence: "> You just murdered Sam and took his body to the backside of the cafe.",
         options: {
             1: [ "Continue", 4],
         },
-        image: "https://i.imgur.com/z76ZU4M.gif"
+        image: "./assets/img/scenes/scene3.gif"
     },
     4: {
         sentence: "> Your biggest enemy is down and you're currently on the train station on your way to work. On the walls it already says that you're wanted..\nGet out of here, as soon as possible!",
         options: {
             1: [ "Continue", 5],
         },
-        image: "https://i.imgur.com/eTXACsr.gif",
+        image: "./assets/img/scenes/scene4.gif",
     },
     5: {
         sentence: "> You just arrived at your work. Go inside and act like nothing happend or stay outside and take a look at the highway.",
@@ -38,58 +38,57 @@ var story = {
             1: [ "Go inside and act like nothing happend.", 6],
             2: [ "Stay outside and take a look at the highway.", 7]
         },
-        image: "https://i.imgur.com/ECn8Tva.gif"
+        image: "./assets/img/scenes/scene5.gif"
     },
     6: {
         sentence: "> Jack is calling you, he has some important news for you.",
         options: {
             1: [ "Take your phone and accept the call.", 8]
         },
-        image: "https://i.imgur.com/iipgZmh.gif"
+        image: "./assets/img/scenes/scene6.gif"
     },
     7: {
         sentence: "...",
         options: {
             1: [ "Go inside the building.", 6]
         },
-        image: "https://i.imgur.com/9wDyCy5.gif"
+        image: "./assets/img/scenes/scene7.gif"
     },
     8: {
         sentence: "> Jack is very worried and is telling you that the police are on their way to get you, cause you murdered someone!..",
         options: {
             1: [ "Continue", 9]
         },
-        image: "https://i.imgur.com/MpRiiHp.gif"
+        image: "./assets/img/scenes/scene8.gif"
     },
     9: {
         sentence: "Oh no! The police arrived and is about to arrest you!..",
-        image: "https://i.imgur.com/ef9BdPj.gif"
-        // game over
+        image: "./assets/img/scenes/scene9.gif"
     },
     10: {
         sentence: "You came home and play a game with your little brother..",
-        image: "https://i.imgur.com/KGJ9BBt.gif",
+        image: "./assets/img/scenes/scene10.gif",
         options: {
             1: [ "Continue", 11]
         }
     },
     11: {
         sentence: "It's time to go to work, take your flying car and lets go!",
-        image: "http://www.kauergames.com/wp-content/uploads/2016/10/pixel-landscape.png",
+        image: "./assets/img/scenes/scene11.png",
         options: {
             1: [ "Continue", 12]
         }
     },
     12: {
         sentence: "Almost there..",
-        image: "https://i.imgur.com/PiV6vj4.gif",
+        image: "./assets/img/scenes/scene12.gif",
         options: {
             1: [ "Continue", 13]
         }
     },
     13: {
         sentence: "You arrived at your work and you found a closed door, you really wanna conquer the world, which is possible when you've accessed this secret room with important secret information.",
-        image: "https://i.imgur.com/S0QenRl.gif",
+        image: "./assets/img/scenes/scene13.gif",
         options: {
             1: [ "Try to access the door", 14],
             2: [ "Search the key", 15],
@@ -97,7 +96,7 @@ var story = {
     },
     14: {
         sentence: "",
-        image: "https://i.imgur.com/4wrrJp6.gif",
+        image: "./assets/img/scenes/scene14.gif",
         options: {
             1: [ "Try it again", 14],
             2: [ "Search the key", 15],
@@ -105,35 +104,35 @@ var story = {
     },
     15: {
         sentence: "You gave up searching for the key, you thought about copying the key pattern!",
-        image: "https://i.imgur.com/u5q1BWq.gif",
+        image: "./assets/img/scenes/scene15.gif",
         options: {
             1: [ "Continue", 16]
         }
     },
     16: {
         sentence: "Goodjob! You copied the key, you should be able to open the secret door now..",
-        image: "https://i.imgur.com/u5q1BWq.gif",
+        image: "./assets/img/scenes/scene16.gif",
         options: {
             1: [ "Go to door and try to access it.", 14]
         }
     },
     17: {
         sentence: "You're now in the secret room.. but there is another person! Kill him!",
-        image: "https://i.imgur.com/9NaiXUT.gif",
+        image: "./assets/img/scenes/scene17.gif",
         options: {
             1: [ "Continue.", 18]
         }
     },
     18: {
         sentence: "You succesfully entered the secret room and gained access to all the secret information, you conquered the world!",
-        image: "https://i.imgur.com/ECB99LW.gif",
+        image: "./assets/img/scenes/scene18.gif",
         options: {
             1: [ "End the game.", 19]
         }
     },
     19: {
         sentence: "Thank you for playing this game, I hope you enjoyed! :)",
-        image: "https://orig00.deviantart.net/77dd/f/2017/214/3/a/last_land_by_kirokaze-dbil9vw.gif",
+        image: "./assets/img/scenes/scene19.gif",
         options: {
             1: [ "Start again.", 1]
         }
